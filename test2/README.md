@@ -76,8 +76,9 @@ rectangle {
 ##     3. 用例规约表
 
 ###     3.1 “借出图书”用例
+![usecase](borrow_book.png)
 
-###     3.2 “还书”用例
+###     3.2 “归还图书”用例
 ![usecase](return_book_example2.png)
 
 
@@ -119,5 +120,5 @@ stop
 @enduml
 ```
 
-### 还书例图如下：
+### 归还图书例图如下：
 ![usecase](return_book.png)
