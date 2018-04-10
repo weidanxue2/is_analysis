@@ -29,8 +29,28 @@ rectangle {
 ![usecase](manager1.png)
 
 ### 1.3借阅者用例图PlantUML源码如下：
+```
+@startuml
+Left to right direction
+:借阅者:
+rectangle {
+借阅者-->(登录系统)
+借阅者-->(归还图书)
+借阅者-->(查询图书)
+借阅者-->(借阅图书)
+借阅者-->(预约图书)
+借阅者-->(查询记录)
+(查询图书)<..(借阅图书):includes
+(查询图书)<..(预约图书):includes
+(登录系统)<..(预约图书):includes
+(登录系统)<..(查询记录):includes
+(归还图书)<..(缴纳罚款):extends
+}
+@enduml
+```
 
 ### 1.4 借阅者用例图如下：
+![usecase](borrower.png)
 
 ## 2. 参与者说明：
 
