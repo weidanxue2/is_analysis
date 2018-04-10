@@ -78,7 +78,7 @@ rectangle {
 ###     3.1 “借出图书”用例
 
 ###     3.2 “还书”用例
-![usecase](return_book_example.png)
+![usecase](return_book_example2.png)
 
 
 ### 归还图书用例PlantUML图
