@@ -26,7 +26,7 @@ rectangle {
 ```
 ### 1.2 管理员用例图如下：
 
-![usecase](manager.png)
+![usecase](manager1.png)
 
 ### 1.3借阅者用例图PlantUML源码如下：
 
