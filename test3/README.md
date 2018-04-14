@@ -102,8 +102,8 @@ object Borrower {
 }
 ```
 #### 对象图如下所示：
-### 2.4：类Title的对象图：
 ![](./Borrower.png)
+### 2.4：类Title的对象图：
 #### 源码如下所示：
 ```
 object Title {
@@ -115,7 +115,7 @@ object Title {
 }
 ```
 #### 对象图如下所示：
-![](./Title.png)
+![](./title.png)
 #### 对象图如下所示：
 ### 2.5：类Loan的对象图：
 #### 源码如下所示：
