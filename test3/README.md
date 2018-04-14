@@ -68,8 +68,8 @@ Reservation：预约类\
 Borrower：借阅类\
 Loan：借阅记录类\
 Manager:管理员类
-## 2：图书管理系统的对象图
-### 2.1：类Item的对象图：
+## 2图书管理系统的对象图
+### 2.1类Item的对象图：
 #### 源码如下所示：
 ```
 object Item {
@@ -78,7 +78,7 @@ object Item {
 ```
 #### 对象图如下所示：
 ![](./item.png)
-### 2.2：类Reservation的对象图：
+### 2.2类Reservation的对象图：
 #### 源码如下所示：
 ```
 object Reservation {
@@ -89,7 +89,7 @@ object Reservation {
 ```
 #### 对象图如下所示：
 ![](./Reservation.png)
-### 2.3：类Borrower的对象图：
+### 2.3类Borrower的对象图：
 #### 源码如下所示：
 ```
 object Borrower {
@@ -103,7 +103,7 @@ object Borrower {
 ```
 #### 对象图如下所示：
 ![](./Borrower.png)
-### 2.4：类Title的对象图：
+### 2.4类Title的对象图：
 #### 源码如下所示：
 ```
 object Title {
@@ -116,7 +116,7 @@ object Title {
 ```
 #### 对象图如下所示：
 ![](./title.png)
-### 2.5：类Loan的对象图：
+### 2.5类Loan的对象图：
 #### 源码如下所示：
 ```
 object Loan {
@@ -129,7 +129,7 @@ object Loan {
 ```
 #### 对象图如下所示：
 ![](./Loan.png)
-#### 2.6:manager的对象图：
+#### 2.6manager的对象图：
 #### 源码如下所示：
 ```
 object Manager{
@@ -139,7 +139,7 @@ object Manager{
 ```
 #### 对象图如下所示：
 ![](./Manager.png)
-#### 2.7:系统的对象图：
+#### 2.7系统的对象图：
 #### 源码如下所示：
 ```
 @startuml
