@@ -71,22 +71,75 @@ Manager:管理员类
 ## 2：图书管理系统的对象图
 ### 2.1：类Item的对象图：
 #### 源码如下所示：
+```
+object Item {
+  id = "001"
+}
+```
 #### 对象图如下所示：
+![](./item.png)
 ### 2.2：类Reservation的对象图：
 #### 源码如下所示：
+```
+object Reservation {
+    date = "2018/4/14"
+    user_id = "01"
+    number = "1"
+}
+```
 #### 对象图如下所示：
+![](./Reservation.png)
 ### 2.3：类Borrower的对象图：
 #### 源码如下所示：
+```
+object Borrower {
+ user_id = "01"
+ name = "Bob"
+ book_name = "高等数学"
+ mail = "123456789@163.com"
+ password = "1314"
+ borrowed_book
+}
+```
 #### 对象图如下所示：
 ### 2.4：类Title的对象图：
+![](./Borrower.png)
 #### 源码如下所示：
+```
+object Title {
+  name = "信息系统分析与涉及"
+  autnor = "王晓敏"
+  total_number = "100"
+  borrrow_number = "001"
+  Boolean is_allow_for_borrow = "true"
+}
+```
 #### 对象图如下所示：
-### 2.5：类Reservation的对象图：
+![](./Title.png)
+#### 对象图如下所示：
+### 2.5：类Loan的对象图：
 #### 源码如下所示：
+```
+object Loan {
+   money = "1.2"
+   Boolean is_pay = "true"
+   item = "001"
+   borrower = "Jack"
+   date = "2018/4/14"
+}
+```
 #### 对象图如下所示：
-### 2.6：类Loan的对象图：
+![](./Loan.png)
+#### 2.6:manager的对象图：
 #### 源码如下所示：
+```
+object Manager{
+    id = "01"
+    name = "Rosa"
+}
+```
 #### 对象图如下所示：
+![](./Manager.png)
 #### 2.7:系统的对象图：
 #### 源码如下所示：
 ```
@@ -136,4 +189,5 @@ Borrower "0..*" -- "1" Manager:维护读者信息
 @enduml
 ```
 #### 对象图如下所示：
+![](./system_object.png)
 
