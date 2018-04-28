@@ -68,6 +68,11 @@ deactivate Book_recording_system
 ```
 ### 2.2借阅图书顺序图：
 ![class](Borrow_book_image.png)
+### 2.3用例说明：
+lend_book():借阅图书\
+find_book():查询是否有该图书\
+find)on_Item():在图书库中查询图书书目\
+create_borrower_inf():创建借书记录
 ## 3归还图书
 
 ### 3.1PlantUML源代码：
@@ -108,3 +113,43 @@ deactivate Book_recording_system
 ```
 ### 3.2归还图书顺序图：
 ![class](Return_book_image.png)
+### 3.3用例说明：
+return_book():归还图书\
+find_book():查询图书库中是否有该图书的记录\
+destory_borrow_inf():销毁借书记录
+## 4删除图书
+
+### 4.1PlantUML源代码：
+```
+@startuml
+actor 图书管理员 as Admin
+activate Admin
+activate delete_book
+Admin->delete_book:Remove_item()
+deactivate Admin
+deactivate delete_book
+delete_book->Title:find_book()
+activate delete_book
+activate Title
+Title->Item:find_on_item()
+activate Item
+Title<--Item:return true
+delete_book<--Title:return true
+deactivate Title
+deactivate Item
+deactivate delete_book
+delete_book->Title:destory_Title()
+activate Title
+activate delete_book
+delete_book<--Title:删除成功
+deactivate Title
+deactivate delete_book
+@enduml
+```
+### 4.2删除图书顺序图：
+![class](delete_book.png)
+### 4.3用例说明：
+Remove_book():删除图书\
+find_book():查询图书库中是否有该图书的记录\
+find_on_item():在图书库中查询图书书目\
+destory_book():销毁图书库中该图书的记录
