@@ -8,43 +8,43 @@
 ## 1.1. 管理员表
 |字段|类型|主键，外键|可以为空|默认值|约束|说明|
 |:-------:|:-------------:|:------:|:----:|:---:|:----:|:-----|
-|ID|int(20)|主键|否||||
-|Name|varchar2(100)| |否||||
+|ID|NUMBER(8,0)|主键|否|||管理员id|
+|Name|VARCHAR2(50 BYTE)| |否|||管理员姓名|
 ## 1.2. 借阅者信息表
 |字段|类型|主键，外键|可以为空|默认值|约束|说明|
 |:-------:|:-------------:|:------:|:----:|:---:|:----:|:-----|
-|Borrow_id|int(20)|主键,外键|否||||
-|Borrow_name|varchar2(100)| |否||||
-|Book_name|varchar2(100)| |否||||
-|Mail|varchar2(100)| |是||||
-|Password|int(20)| |否||||
+|Borrow_id|NUMBER(8,0)|主键,外键|否|||借阅者id号|
+|Borrow_name|VARCHAR2(50 BYTE)| |否|||借阅者姓名|
+|Book_name|VARCHAR2(50 BYTE)| |否|||图书名|
+|Mail|VARCHAR2(50 BYTE)| |是|||借阅者邮箱|
+|Password|VARCHAR2(512 BYTE)| |否|||密码|
 ## 1.3. 借阅表
 |字段|类型|主键，外键|可以为空|默认值|约束|说明|
 |:-------:|:-------------:|:------:|:----:|:---:|:----:|:-----|
-|Book_id|int(20)|外键|否||||
-|money|varchar2(100)| |是||||
-|Date|varchar2(100)| |否||||
-|is_pay|varchar2(100)| |是||||
-|Borrow_id|int(20)|主键，外键|否||||
+|Book_id|NUMBER(8,0)|外键|否|||图书id号|
+|money|DOUBLE| |是|||欠费多少|
+|Date|DATE| |否|||时间|
+|Is_pay|BOOLEAN| |是|||是否付费|
+|Borrow_id|NUMBER(8,0)|主键，外键|否|||借阅者id号|
 ## 1.4. 书籍标题管理表
 |字段|类型|主键，外键|可以为空|默认值|约束|说明|
 |:-------:|:-------------:|:------:|:----:|:---:|:----:|:-----|
-|Book_id|int(20)|主键,外键|否||||
-|Book_name|varchar2(100)|外键|否||||
-|Book_number|varchar2(200)| |是||||
-|Author|varchar2(100)| |否||||
-|Is_allow_for_borrow|Boolean| |否||||
-|Borrow_number|varchar2(200)| |否||||
+|Book_id|NUMBER(8,0)|主键,外键|否|||图书id号|
+|Book_name|VARCHAR2(50 BYTE)|外键|否|||图书名|
+|Book_number|NUMBER(200,0)| |是|||图书数量|
+|Author|VARCHAR2(50 BYTE)| |否|||作者|
+|Is_allow_for_borrow|BOOLEAN| |否|||是否允许借阅|
+|Borrow_number|NUMBER(200,0)| |否|||借出数目|
 ## 1.5. 预约者信息表
 |字段|类型|主键，外键|可以为空|默认值|约束|说明|
 |:-------:|:-------------:|:------:|:----:|:---:|:----:|:-----|
-|User_id|int(20)|主键|否||||
-|Date|varchar2(100)| |否||||
-|Book_number|varchar2(200)| |否||||
-|Book_name|varchar2(100)|外键|否||||
+|Order_id|NUMBER(8,0)|主键|否|||预约者id号|
+|Date|DATE| |否|||预约时间|
+|Borrow_number|NUMBER(200,0)| |否|||借出数目|
+|Book_name|VARCHAR2(50 BYTE)|外键|否|||图书名|
 ## 1.6. 书籍题目表
 |字段|类型|主键，外键|可以为空|默认值|约束|说明|
 |:-------:|:-------------:|:------:|:----:|:---:|:----:|:-----|
-|Book_id|int(20)|主键,外键|否||||
-|Borrow_id|int(20)|外键|否||||
+|Book_id|NUMBER(8,0)|主键,外键|否|||图书id号|
+|Borrow_id|NUMBER(8,0)|外键|否|||借阅者id号|
 ## 2.数据库表设计
