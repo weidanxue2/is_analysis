@@ -58,18 +58,19 @@
 1. 借阅信息API
 
 - 功能：用于获取借阅者的借阅信息
-- 请求地址： http://localhost:8080/BookManagementSystem/getBorrowInfo
+- 请求地址： http://localhost:8080/BookManagementSystem/Borrow_book.jsp
 - 请求方法：POST
 - 请求参数：
 
 |参数名称|必填|说明|
 |:-------:|:-------------: | :----------:|
 |Borrow_id|是|借阅者id号|
+|method|是|固定为POST|
 
 - 返回实例：
 ```
 {
-    "status_code": "1/0",
+    "status_code": "200",
     "data": 
     [
         {
@@ -81,6 +82,7 @@
             "Borrow_time","2018/05/05",
             "Should_r_time","2018/06/05",
         },
+        "msg": "响应成功"
     ]
 }
 ```
@@ -88,5 +90,6 @@
     
 |参数名称|说明|
 |:-------:|:-------------: |
-|status_code|状态码（1成功，0失败）|
+|status_code|状态码（200成功，404失败）|
 |data|借阅信息的详细信息|
+|msg|请求响应结果|
