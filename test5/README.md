@@ -48,14 +48,14 @@
 |Book_id|NUMBER(8,0)|主键,外键|否|||图书id号|
 |Borrow_id|NUMBER(8,0)|外键|否|||借阅者id号|
 ## 2.数据库表设计
-### 2.1借阅者信息表：
-![pic1](borrower_inf.png)
+### 2.1借阅信息表：
+![pic1](borrower_information.png)
 - 用例图参见：借阅用例
-- 类图参见：Borrower类
+- 类图参见：Borrower类,Loan类
 - 顺序图参见：借阅图书顺序图
 - API接口如下：
 
-1. 借阅者信息API
+1. 借阅信息API
 
 - 功能：用于获取借阅者的借阅信息
 - 请求地址： http://localhost:8080/BookManagementSystem/getBorrowInfo
@@ -74,12 +74,12 @@
     [
         {
             "Book_name","大学英语",
-            "Book_id","001",
+            "Borrow_id","001",
             "author","rosa",
             "Mail","123456789@qq.com"
             "Password","12345678"
-            "borrow_time","2018/05/05",
-            "should_r_time","2018/06/05",
+            "Borrow_time","2018/05/05",
+            "Should_r_time","2018/06/05",
         },
     ]
 }
