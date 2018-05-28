@@ -16,7 +16,7 @@
 ### 用例图
 ![usecase](实验六_用例图.PNG)
 
-## 4.类图设计：[源代码](src/usecase.puml)
+## 4.类图设计：[源代码](src/test_manage_class.puml)
 ### 类图
 ![usecase](类图.png)
 
