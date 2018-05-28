@@ -1,1 +1,54 @@
+@startuml
+Users <|-- Teachers
+Users <|-- Students
+
+Users : user_id(用户id)
+Users : name(用户姓名)
+Users : Git_username(Git帐号名称)
+Users : password(密码)
+Users : status(用户身份类型)
+Users : disable(用户是否禁用)
+Users : update_date(帐号修改日期)
+
+Teachers : teacher_id(老师工号)
+Teachers : teacher_name(老师姓名)
+Teachers : teacher_department(老师所属部门)
+
+Students : student_id(学生学号)
+Students : student_name(学生姓名)
+Students : student_class(学生所属班级)
+Students : student_sum(学生成绩汇总)
+
+Users"1" *--"n"Select_courses
+Select_courses : course_id(课程号)
+Select_courses : course_name(课程名称)
+Select_courses : course_name(课程时长)
+
+Teachers"1" *--"1"Student_list
+Student_list : student_id(学生学号)
+Student_list : student_name(学生姓名)
+
+Teachers"1" *--"n"Book
+Book : book_id(书记编号)
+Book : book_name(书籍名称)
+Book : publishing(出版社)
+
+Teachers"n" *--"n"Subject
+Students"n" *--"n"Subject
+Subject : subject_id(学科id)
+Subject : subject_name(学科名称)
+
+Subject"1" *--"n"Grades
+Grades : grade_id(成绩编号)
+Grades : student_id(学生学号)
+Grades : test_id(实验编号)
+Grades : each_score(每项得分)
+Grades : sum_score(总分)
+Grades : comment(评语)
+Grades : date(批改日期)
+
+Grades"n" *--"1"Test
+Test : test_id(实验编号)
+Test : test_name(实验名称)
+@enduml
 
