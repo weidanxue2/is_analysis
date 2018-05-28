@@ -25,8 +25,7 @@
 ![usecase](类图.png)
 
 ## 5.数据库设计：
-### 源代码
-### 数据库表
+- ### [参见数据库设计](./数据库设计.md)
 
 ## 6. 用例及界面详细设计:
 - ### [“学生列表”用例](./用例/学生列表.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/index.html)
