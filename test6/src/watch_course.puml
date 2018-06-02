@@ -1,1 +1,7 @@
+@startuml
+title 基于GitHub的实验管理平台--查看所选课程的顺序图
+actor users
+users-->course:选择课程
+course-->users:返回用户所选课程
 
+@enduml
