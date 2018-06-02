@@ -1,0 +1,348 @@
+﻿$axure.loadCurrentPage({
+  "url":"查看所选课程.html",
+  "generationDate":new Date(1527954928384.99),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"9f681d816ace4f08910f66bd4827c1e7",
+    "type":"Axure:Page",
+    "name":"查看所选课程",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"b3b80fd338884f53ac79d9340d1387dd",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF99CCCC},
+            "location":{
+              "x":79.5,
+              "y":10},
+            "size":{
+              "width":690,
+              "height":320}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"968005722565424f945756ff2c9cf497",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF99CCCC},
+                "location":{
+                  "x":79.5,
+                  "y":10},
+                "size":{
+                  "width":690,
+                  "height":320}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/查看所选课程/u0.png"}},
+{
+          "id":"a1d65ea78548462a9cef8210ff55a473",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "location":{
+              "x":328,
+              "y":33},
+            "size":{
+              "width":193,
+              "height":37}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"34937cf3b00b4256a7893b497e1ba06d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "location":{
+                  "x":328,
+                  "y":33},
+                "size":{
+                  "width":193,
+                  "height":37}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"d92e756f617048a2bd07995e085d5fde",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"16px",
+            "fontWeight":"700",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "location":{
+              "x":280,
+              "y":114},
+            "size":{
+              "width":80,
+              "height":19}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"495d415d76a54dd0a4e2ce4faf57e54d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"16px",
+                "fontWeight":"700",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "location":{
+                  "x":280,
+                  "y":114},
+                "size":{
+                  "width":80,
+                  "height":19}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"f68917aa9b3540e6a2e2385f8e376e85",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"16px",
+            "fontWeight":"700",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "location":{
+              "x":280,
+              "y":170},
+            "size":{
+              "width":80,
+              "height":19}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"30e5df0a1c12471fbf8fd707a7754b6b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"16px",
+                "fontWeight":"700",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "location":{
+                  "x":280,
+                  "y":170},
+                "size":{
+                  "width":80,
+                  "height":19}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"4e7043704f1d4742bfade3d27ab3d8d8",
+          "label":"",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":390,
+              "y":114},
+            "size":{
+              "width":200,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"6028a4f1d0db431197e6bb89617e3bee",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":390,
+              "y":167},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"833bfa37a4c3404f851b779edd1c5e31",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"16px",
+            "fontWeight":"700",
+            "location":{
+              "x":280,
+              "y":240},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"d92588344926497da537f69cd47e9c71",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"16px",
+            "fontWeight":"700",
+            "location":{
+              "x":430,
+              "y":240},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 学生",
+                      "target":{
+                        "targetType":"page",
+                        "url":"学生.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"53202693e72d48bcbe0b15a06a661664",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"16px",
+            "fontWeight":"700",
+            "location":{
+              "x":550,
+              "y":240},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 老师",
+                      "target":{
+                        "targetType":"page",
+                        "url":"老师.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "b3b80fd338884f53ac79d9340d1387dd":{
+      "scriptId":"u0"},
+    "968005722565424f945756ff2c9cf497":{
+      "scriptId":"u1"},
+    "a1d65ea78548462a9cef8210ff55a473":{
+      "scriptId":"u2"},
+    "34937cf3b00b4256a7893b497e1ba06d":{
+      "scriptId":"u3"},
+    "d92e756f617048a2bd07995e085d5fde":{
+      "scriptId":"u4"},
+    "495d415d76a54dd0a4e2ce4faf57e54d":{
+      "scriptId":"u5"},
+    "f68917aa9b3540e6a2e2385f8e376e85":{
+      "scriptId":"u6"},
+    "30e5df0a1c12471fbf8fd707a7754b6b":{
+      "scriptId":"u7"},
+    "4e7043704f1d4742bfade3d27ab3d8d8":{
+      "scriptId":"u8"},
+    "6028a4f1d0db431197e6bb89617e3bee":{
+      "scriptId":"u9"},
+    "833bfa37a4c3404f851b779edd1c5e31":{
+      "scriptId":"u10"},
+    "d92588344926497da537f69cd47e9c71":{
+      "scriptId":"u11"},
+    "53202693e72d48bcbe0b15a06a661664":{
+      "scriptId":"u12"}}});
