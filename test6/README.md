@@ -31,7 +31,6 @@
 - ### [“学生列表”用例](./use_case/学生列表.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/index.html)
 - ### [“评定成绩”用例](./use_case/评定成绩.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/评定成绩.html)
 - ### [“查看成绩”用例](./use_case/查看成绩.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/查看成绩.html)
-- ### [“修改密码”用例](./use_case/修改密码.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/顶部菜单.html)
 - ### [“修改用户信息”用例](./use_case/修改用户信息.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/顶部菜单.html)
 - ### [“查看所选课程”用例](./use_case/查看所选课程.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/index.html)
 - ### [“选择课程”用例](./use_case/选择课程.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/index.html)
