@@ -33,7 +33,6 @@
 - ### [“查看成绩”用例](./use_case/查看成绩.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/查看成绩.html)
 - ### [“修改密码”用例](./use_case/修改密码.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/顶部菜单.html)
 - ### [“修改用户信息”用例](./use_case/修改用户信息.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/顶部菜单.html)
-- ### [“查看用户信息”用例](./use_case/查看用户信息.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/顶部菜单.html)
 - ### [“查看所选课程”用例](./use_case/查看所选课程.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/index.html)
 - ### [“选择课程”用例](./use_case/选择课程.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/index.html)
 - ### [“选择书籍”用例](./use_case/选择书籍.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/index.html)
