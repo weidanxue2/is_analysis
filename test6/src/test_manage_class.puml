@@ -29,7 +29,7 @@ Student_list : student_id(学生学号)
 Student_list : student_name(学生姓名)
 
 Teachers"1" *--"n"Book
-Book : book_id(书记编号)
+Book : book_id(书籍编号)
 Book : book_name(书籍名称)
 Book : publishing(出版社)
 
