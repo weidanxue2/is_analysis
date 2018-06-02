@@ -1,1 +1,14 @@
+@startuml
+title 基于GitHub的实验管理平台--学生实验得分的顺序图
+actor users
+users-->Subject:选择课程
+Subject -> students: 查看所有学生列表
+alt 如果users是老师
+	students -> grades
+	grades -> tests
+	tests --> users:每个学生的信息、及每个实验的各项得分
+else 如果users是students,或者没有登录到系统中
+    students --> users:每个学生的信息
+end
 
+@enduml
