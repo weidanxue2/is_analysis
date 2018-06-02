@@ -1,1 +1,9 @@
+@startuml
+title 基于GitHub的实验管理平台--选择参考书籍的顺序图
+actor teachers
+teachers-->course:选择课程
+course-->teachers:返回课程
+course-->book:选择对应的参考书籍
+book-->course:返回已选择的参考书籍
 
+@enduml
