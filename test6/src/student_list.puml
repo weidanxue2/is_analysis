@@ -1,1 +1,10 @@
-
+@startuml
+title 基于GitHub的实验管理平台--学生列表的顺序图
+actor users
+users-->Subject:选择课程
+Subject -> Teacher
+Teacher-->class
+class-->Teacher:返回老师\n所授课的班级
+class-->student
+student-->class:返回每个\n班级里面的学生
+@enduml
