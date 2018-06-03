@@ -28,10 +28,10 @@
 - ### [参见数据库设计](./数据库设计.md)
 
 ## 6. 用例及界面详细设计:
-- ### [“学生列表”用例](./use_case/学生列表.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/学生列表.html)
-- ### [“评定成绩”用例](./use_case/评定成绩.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/评定成绩.html)
-- ### [“查看成绩”用例](./use_case/查看成绩.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/查看成绩.html)
-- ### [“修改用户信息”用例](./use_case/修改用户信息.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/修改用户信息.html)
-- ### [“查看所选课程”用例](./use_case/查看所选课程.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/查看所选课程.html)
-- ### [“选择课程”用例](./use_case/选择课程.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/选择课程.html)
-- ### [“选择参考书籍”用例](./use_case/选择参考书籍.md),[界面](https://weidanxue2.github.io/is_analysis/test6/ui/选择参考书籍.html)
+- ### [“学生列表”用例](./use_case/学生列表.md)
+- ### [“评定成绩”用例](./use_case/评定成绩.md)
+- ### [“查看成绩”用例](./use_case/查看成绩.md)
+- ### [“修改用户信息”用例](./use_case/修改用户信息.md)
+- ### [“查看所选课程”用例](./use_case/查看所选课程.md)
+- ### [“选择课程”用例](./use_case/选择课程.md),[界面]
+- ### [“选择参考书籍”用例](./use_case/选择参考书籍.md)
